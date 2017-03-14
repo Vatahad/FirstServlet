@@ -40,7 +40,7 @@ public class MainServelet extends HttpServlet{
     }
 
      private String getView(String view){
-         String prefix = "/WEB-INF/";
+         String prefix = "/WEB-INF/views";
          String sufix = ".jsp";
          return prefix+view+sufix;
      }
